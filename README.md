@@ -5,13 +5,13 @@ My marp style templates.
 ## Installation
 
 ### Windows
-#### Install Scoop
+#### Scoop
 ```powershell
 $ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 $ irm get.scoop.sh | iex
 ```
 
-#### Install Marp
+#### Marp
 ```powershell
 $ scoop install marp
 ```
@@ -20,12 +20,12 @@ $ scoop install marp
 
 ## Compiling
 
-### To PDF
+#### To PDF
 ```powershell
 $ marp --theme notosans-navy index.md -o output.pdf
 ```
 
-### To PowerPoint
+#### To PowerPoint
 ```powershell
 $ marp --theme notosans-navy index.md -o output.pptx
 ```
