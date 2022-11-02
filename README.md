@@ -11,7 +11,7 @@ $ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 $ irm get.scoop.sh | iex
 ```
 
-### Install Marp
+#### Install Marp
 ```powershell
 $ scoop install marp
 ```
