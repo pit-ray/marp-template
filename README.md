@@ -19,13 +19,12 @@ $ scoop install marp
 
 
 ## Compiling
-
 #### To PDF
 ```powershell
-$ marp --theme notosans-navy index.md -o output.pdf
+$ marp --html --allow-local-files --theme notosans-navy index.md -o output.pdf
 ```
 
 #### To PowerPoint
 ```powershell
-$ marp --theme notosans-navy index.md -o output.pptx
+$ marp --html --allow-local-files --theme notosans-navy index.md -o output.pptx
 ```
